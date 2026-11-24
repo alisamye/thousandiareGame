@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>من سيربح الألفين</title>
+    <style>
+        body {
+          background-color: blue;
+          min-height: 100vh;
+          margin: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: 
+            "Segoe UI", /* Excellent Arabic support on Windows */
+            "Tahoma", /* Reliable fallback on older Windows */
+            "Arial", /* Universal fallback */
+            "Dubai", /* Modern Microsoft Arabic font */
+            "Geeza Pro", /* Apple iOS / macOS standard Arabic font */
+            "Apple SD Gothic Neo", 
+            sans-serif;
+          direction: rtl;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        .intro{
+            background-color: blueviolet;
+            color: black;
+            border: 3px solid black;
+            border-radius: 5px;
+            width: min(80vw, 500px);
+            padding: 12px;
+            text-align: center;
+        }
+        .button{
+            background-color: green;
+            color: black;
+            border: 3px solid black;
+            border-radius: 10px;
+            width: 140px;
+        }
+        .button a {
+            display: block;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            مرحبا بكم في لعبة من سيربح الألفين<br>
+            لبدأ اللعب أضغط على زر البدأ
+        </div>
+        <div class="button">
+            <a href="game.html" target="_self" >أبدأ</a>
+        </div>
+    </div>
+</body>
+</html>
